@@ -2,6 +2,7 @@ bm-FollowFriday (blogmotion)
 ===
 ###LICENCE###
 Creative Commons Attribution-NoDerivatives 4.0 (International)
+
 http://creativecommons.org/licenses/by-nd/4.0/
 
 ###Description###
