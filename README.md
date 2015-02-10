@@ -1,4 +1,4 @@
-bm-FollowFriday (blogmotion follow friday)
+bm-FollowFriday (blogmotion)
 ===
 ###LICENCE###
 Creative Commons Attribution-NoDerivatives 4.0 (International)
