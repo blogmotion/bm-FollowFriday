@@ -1,6 +1,6 @@
 <?php
 
-// Nombre d'items désirés *5, 1 = 20 friends, 2 = 40 friends etc...
+// Nombre d'items désirés *20 (1 = 20 friends, 2 = 40 friends etc...)
 $max = 5;
 
 // Informations de votre compte twitter dev : https://apps.twitter.com/
