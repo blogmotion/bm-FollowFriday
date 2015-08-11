@@ -1,5 +1,15 @@
-﻿body { background:url("https://pbs.twimg.com/profile_background_images/11240879/twitterbackground.png") no-repeat; font-family:arial; }
-section { margin: 53px 5px 0px 225px; }
+﻿@import url('http://fonts.googleapis.com/css?family=Droid+Sans');
+body { 
+	background:url("https://pbs.twimg.com/profile_background_images/590289899065978881/yWJ0U5nk.png") no-repeat; 
+	font-family: "Droid sans", Helvetica, arial, verdana, sans-serif; 
+}
+
+/* ===========================
+ * Corps
+ * ========================== */
+section { 
+	margin: 53px 5px 20px 225px;
+}
 
 /* ===========================
  * On aligne les avatars
@@ -12,46 +22,84 @@ div.friends {
 /* ===========================
  *	Popup 
  * ========================== */
+a.popup
+{
+	margin: 5px 5px 0px 0px;
+    position:relative;
+    z-index:24; 
+}
+
 a.popup:hover {
-	 background: none; 
-	 z-index: 50; 
+	z-index:25; 
 }
    
 a.popup span { display: none; }
    
 a.popup:hover span {
-	display: block; 
-	position: absolute;
-	width: 280px;
-	padding: 5px;
-	
-	border: 1px solid #203748;
-	border-left: 10px solid #203748;
-	
-	color: #203748;
-	font-family:arial, verdana, sans-serif; 
-	text-align:justify; 
-	font-size:12px;
-	font-weight:normal;
-	background: white;
+    display: block;
+    position: absolute;
+    top: 0.1em; 
+    left: 0.1em; 
+    width: 280px;
+    
+ 	
+	border: 1px solid #888888;
+	border-left: 10px solid #35b5eb;
+    
+	background-color: white; 
+    color: #203748;
+}
+
+div.name{ 
+	font-weight:bold;
+	background-color:#35b5eb;
+	padding:3px 0;
+}
+
+div.pseudescr {
+	padding: 5px 10px 0px 10px;
+}
+
+div.pseudo{
+	font-style: italic;
+	margin:10px 0;
+}
+
+div.description{
+	font-size: 15px;
+	text-align: justify;
+	text-justify: inter-word;
+	margin:10px 0;
 }
 
 /* ===========================
  *	Footer
  * ========================== */
-footer  { color:#ccc; font-size:10px; position: absolute; top: 300px; left:14px; } /* positionné à gauche */
+footer  { color:#ccc; font-size:10px; position: absolute; top: 500px; left:5px; } /* positionné à gauche */
 footer a { color:#ccc; }
 
 /* ===========================
  *	from v1
  * ========================== */
 
-#right { color:#fff; text-align:center; font-weight:bold; clear:both; }
-.atname { font-weight:bold; }
-#erreur { width:600px; padding-left:225px; margin-top:100px; color:#98ff00; }
+#right {
+    color:#fff;
+    text-align:center;
+    font-weight:bold;
+    clear:both;
+}
+
+
+#erreur {
+    width:600px;
+    padding-left:225px;
+    margin-top:100px;
+    color:#98ff00;
+}
 
 /* old */
 .following 	{ padding-left:225px; }
+
 #message 	{
 	color:#000;
 	text-align:right; 
@@ -67,8 +115,29 @@ footer a { color:#ccc; }
 	background-color:#fff;
 	vertical-align:middle;
 }
-#message a 	{ color:#fff; text-align:right; font-size:18px; background:#44474b; }
-#message #twitter { color:#fff; background:#44474b; text-decoration:none; }
-#message #twitter:hover { color:#44474b; background:#fff; font-weight; padding:2px 0; }
 
-#ff { font-size:14px; font-weight:bold; color:#98ff00; }
+#message a {
+    color:#fff;
+    text-align:right;
+    font-size:18px;
+    background:#44474b;
+}
+
+#message #twitter {
+    color:#fff;
+    background:#44474b;
+    text-decoration:none;
+}
+
+#message #twitter:hover {
+    color:#44474b;
+    background:#fff;
+    font-weight;
+    padding:2px 0;
+}
+
+#ff {
+    font-size:14px;
+    font-weight:bold;
+    color:#98ff00;
+}
