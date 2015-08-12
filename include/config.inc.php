@@ -4,7 +4,7 @@ $twname = 'xhark'; 					# twitter pseudo, sans '@'
 $sitename = 'Blogmotion';			# nom du site/blog
 $sitehome = 'http://blogmotion.fr';	# favicon et retour home
 $cachefile = './cache-tw.html';		# fichier de cache
-$heureCache = 12;					# temps avant regénération du cache (en heure)
+$heurecache = 12;					# temps avant regénération du cache (en heure)
 
 # Nombre de following à afficher
 $count = 150;

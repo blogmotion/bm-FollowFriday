@@ -64,7 +64,7 @@ ob_start();
 
 $mustRefresh = true;
 if(file_exists($cachefile)) {
-   $expirationTime = (3600*$heureCache);
+   $expirationTime = (3600*$heurecache);
    $diff = time() - filemtime($cachefile);
    # cache encore valide
    if($diff < $expirationTime) $mustRefresh = false;
